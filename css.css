@@ -3,6 +3,11 @@
     margin: 0;
 }
 
+.container{
+    width: 60%;
+    margin: 0 auto 0 auto;
+}
+
 header img{
     width: 100px;
 }
@@ -11,32 +16,66 @@ header img{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    
-    
-    
-    
+    list-style-type: none;
+}
+
+.toplinks a{
+    padding: 17px 25px;
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.toplinks a:hover{
+    background-color: darkred;
 }
 
 .slider{
-    
+    width: 100%;
 }
     
 
+.OurFocus{
+    display: flex;
+}
+
+
+.Testimonials{
+    color: white;
+    background-color: rgb(241, 221, 103);
+}
 
 
 
 
 
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px;
+    
+}
 
+.Portfolio{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
-
-
-
+.main h2{
+    display: flex;
+    justify-content: center;
+}
 
 footer{
+    background-color: black;
+}
+
+.footert{
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
     color: gray;
-    background-color: black;
+    padding: 150px;
 }
