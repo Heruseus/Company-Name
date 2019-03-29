@@ -11,7 +11,7 @@
 header img{
     width: 100px;
 }
-
+/* Logo og Links i toppen */
 .toplinks{
     display: flex;
     flex-wrap: wrap;
@@ -29,26 +29,57 @@ header img{
 .toplinks a:hover{
     background-color: darkred;
 }
-
+/* slideshow */
 .slider{
     width: 100%;
 }
-    
 
+.boxlink1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.boxlink1 a{
+    padding: 17px 25px;
+    color: black;
+    text-decoration: none;
+    display: block;
+    
+}
+
+.color1{
+    background-color: red;
+    padding: 5px;
+    margin: 15px;
+}
+
+.color2{
+    background-color: #32CD32;
+    padding: 5px;
+    margin: 15px;
+}
+
+    
+/* OurFocus */
 .OurFocus{
     display: flex;
 }
 
-
+/* Testimonials */
 .Testimonials{
+    display: flex;
+    flex-direction: row;
     color: white;
     background-color: rgb(241, 221, 103);
+    padding: 80px;
 }
 
 
 
 
-
+/* delt */
 .main{
     display: flex;
     align-items: center;
@@ -57,6 +88,7 @@ header img{
     
 }
 
+/* Portfolio */
 .Portfolio{
     display: flex;
     justify-content: center;
@@ -68,6 +100,7 @@ header img{
     justify-content: center;
 }
 
+/* footer */
 footer{
     background-color: black;
 }
