@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Archivo Black', sans-serif;
 }
 
 .container{
@@ -104,19 +105,22 @@ header img{
     
 /* OurFocus */
 .OurFocus{
-    display: flex;
-
-    
+    display: flex;   
 }
 
 .OurFocus h2{
     font-size: 70px;
 }
 
+.Focus{
+    display: flex;
+    justify-content: space-between;
+}
+
 /* Testimonials */
 .Testimonials{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     color: white;
     background-color: rgb(241, 221, 103);
     padding: 80px;
@@ -125,9 +129,6 @@ header img{
 .Testimonials h2{
     font-size: 70px;
 }
-
-
-
 
 /* delt */
 .main{
