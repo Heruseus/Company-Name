@@ -30,7 +30,7 @@ header img{
 
 .toplinks a{
     padding: 17px 25px;
-    color: black;
+    color: grey;
     text-decoration: none;
     display: block;
 }
@@ -121,6 +121,10 @@ header img{
     padding: 80px 0 40px 0;
 }
 
+.mainfocus p{
+    color: gray;
+}
+
 .Focus{
     display: flex;
     justify-content: center;
@@ -143,8 +147,15 @@ header img{
     padding: 20px 0 0 0;
 }
 
+.focushp img{
+    padding: 25px;
+    border-radius: 50%;
+    border: 10px solid rgb(216, 216, 216);
+}
+
 .focusimgp{
     padding: 20px 0 0 0;
+    color: grey;
 }
 
 .Focush{
@@ -156,6 +167,7 @@ header img{
 .Focusp{
     padding: 24px;
     font-size: 13px;
+    color: grey;
 }
 
 /* Testimonials */
@@ -210,6 +222,7 @@ header img{
 .portfoliomain p{
     display: flex;
     justify-content: center;
+    color: gray;
 }
 
 .portfolio{
@@ -232,55 +245,56 @@ header img{
 
 .touchhead{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./Images/SlideShow Images/SlideShowOne.jpg");
-    text-align: center;
+    /* text-align: center; */
     color: white;
 }
 
 .touchhead h2 {
    text-align: center;
    font-size: 40px;
-   
+}
+
+.touchhead p{
+    text-align: center;
 }
 
 form {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./Images/SlideShow Images/SlideShowOne.jpg");
     width: auto;
     height: auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    max-width: 1750px;
+}
+
+.NES{
+    display: inline-block;
+    border-radius: 5px;
 }
 
 input, textarea {
     border:0; outline:0;
     padding: 5px;
-    display: block;
-    width: 100%;
     margin-top: 1em;
     font-family: 'Merriweather', sans-serif;
     resize: none;
+    border-radius: 5px;
 }
   
 #input-submit {
     color: white; 
     background: Tomato;
     cursor: pointer;
+    margin-left: 905px;
+    padding: 10px 50px;
+    border-radius: 5px;
 }
   
 textarea {
-    height: 126px;
+    height: 200px;
+    width: 100%;
 }
 
-
-
 .half {
-  display: flex;
-  justify-content: space-evenly;
-  width: 48%;
   margin-bottom: 1em;
 }
 
