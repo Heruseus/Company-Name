@@ -68,7 +68,7 @@ header img{
 }
 
 .boxlink1 a{
-    padding: 17px 25px;
+    padding: 10px 25px;
     color: black;
     text-decoration: none;
     display: block;
@@ -76,9 +76,10 @@ header img{
 }
 
 .color1{
-    background-color: Tomato;
+    background-color: rgb(235, 80, 53);
     padding: 5px;
     margin: 15px;
+    border-radius: 5px;
 }
 
 .color1:hover{
@@ -86,9 +87,10 @@ header img{
 }
 
 .color2{
-    background-color: SpringGreen;
+    background-color: rgb(28, 224, 126);
     padding: 5px;
     margin: 15px;
+    border-radius: 5px;
 }
 
 .color2:hover{
@@ -144,6 +146,32 @@ header img{
 
 .focushp p{
     padding: 20px 0 0 0;
+}
+
+.focushp p::after {
+    content: "";
+    display: block;
+    width:calc(80% - 40px);
+    height: 3px;
+    position: relative;
+    left: 43px;
+    top: 10px;
+}
+
+#web::after{
+    background: rgb(206, 54, 54);
+}
+
+#photo::after{
+    background: rgb(102, 185, 53);
+}
+
+#email::after{
+    background: rgb(86, 86, 248);
+}
+
+#SEO::after{
+    background:rgb(230, 230, 62);
 }
 
 .ourimg{
@@ -206,10 +234,19 @@ header img{
     justify-content: flex-end;
 }
 
+.Testimonialsnewsimg img{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: 1px solid rgb(216, 216, 216);
+}
+
 .Testimonialsnewscolor{
     background-color: white;
     color: black;
-    padding: 25px;
+    width: 500px;
+    height: 300px;
+    padding: 15px;
     margin: 20px;
 }
 
