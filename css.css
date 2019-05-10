@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 .container{
@@ -13,7 +13,7 @@
 .headerbox{
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
 }
 
 header img{
@@ -109,6 +109,10 @@ header img{
     font-size: 11px;
 }
 
+.boxlink3 i{
+    padding: 5px;
+}
+
 /* OurFocus */
 .OurFocus{
     display: flex;   
@@ -200,6 +204,10 @@ header img{
     color: grey;
 }
 
+.Focusp i{
+    padding: 5px;
+}
+
 /* delt */
 .main{
     display: flex;
@@ -231,7 +239,8 @@ header img{
 
 .Testimonialsnewsimg{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .Testimonialsnewsimg img{
@@ -241,9 +250,18 @@ header img{
     border: 1px solid rgb(216, 216, 216);
 }
 
+.Testimonialsnewsimg i{
+    font-size: 40px;
+    color: orangered;
+}
+
+.imgname{
+    font-size: 12px;
+}
+
 .Testimonialsnewscolor{
     background-color: white;
-    color: black;
+    color: gray;
     width: 500px;
     height: 300px;
     padding: 15px;
@@ -284,6 +302,7 @@ header img{
 .touchhead{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./Images/SlideShow Images/SlideShowOne.jpg");
     color: white;
+    padding: 100px;
 }
 
 .touchhead h2 {
@@ -306,11 +325,17 @@ form {
 .NES{
     display: inline-block;
     border-radius: 5px;
+    flex-grow: 1;
+    margin-right: 2em;
+}
+
+.NES:last-child{
+    margin-right: 0;
 }
 
 input, textarea {
     border:0; outline:0;
-    padding: 5px;
+    padding: 10px;
     margin-top: 1em;
     font-family: 'Merriweather', sans-serif;
     resize: none;
@@ -321,7 +346,7 @@ input, textarea {
     color: white; 
     background: Tomato;
     cursor: pointer;
-    margin-left: 905px;
+    margin-left: 800px;
     padding: 10px 50px;
     border-radius: 5px;
 }
@@ -332,7 +357,12 @@ textarea {
 }
 
 .half {
+    display: flex;
   margin-bottom: 1em;
+}
+
+.half input{
+    width: 100%;
 }
 
 .right { width: 50%; }
