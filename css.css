@@ -283,13 +283,12 @@ header img{
 }
 
 .portfolio{
-    display: flex;
-    flex-wrap: wrap;
     padding: 80px 0 90px 0;
 }
 
 .portimg{
     display: flex;
+    flex-wrap: wrap;
     width: 25%;
     height: 210px;
 }
